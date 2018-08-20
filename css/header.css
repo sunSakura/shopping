@@ -1,0 +1,107 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.tap{
+    height:35px;
+    margin:0px;
+    padding: 0px;
+    background:#F2F2F2;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.tap-left{
+    display: flex;
+    justify-content: flex-start;
+    width:942px;
+    height:33px;
+    line-height:33px;
+    padding-left:20px;
+}
+.login-info li{
+    list-style: none;
+    float:left;
+}
+.login-info{
+    /* display: flex;
+    margin: 0;
+    justify-content: flex-start; */
+    /* width:300px; */
+}
+/* .clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+} */
+.spans{
+    color:#999;
+    font-size:5px;
+}
+.tap-right{
+    height:33px;
+    width:200px;
+    line-height:33px;
+}
+a:hover{
+    color:rgb(231, 71, 71);
+}
+.a{
+    color:#999;
+    font-size:5px;
+}
+.logos{
+    position:relative;
+    margin:0px;
+    padding:0px;
+    height:150px;
+}
+.logo{
+    position: relative;
+    float:left;    
+    width: 409px;
+    height:150px;
+}
+.img{
+    width:64%;
+    margin-left:100px;
+    position: absolute;
+}
+.midd{
+    width:940px;
+    height:150px;
+    position:relative;
+    float:left;
+}
+.searchs{
+    position:relative;
+    width:480px;
+    height:35px;
+    border:2px solid red;
+    margin-top:55px;
+}
+.inputs{
+    outline: none;
+    border:none;
+    width:480px;
+    height:35px;
+}
+.sou{
+    position:absolute;
+    left:484px;
+    top:55px;
+    width:100px; 
+    height:39px;
+    background:red;
+    color:white;
+    font-size:18px;
+    list-style: none;
+    outline: none;
+    border:0px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+    </div>
+    <div class="beijing" style="background:url(img/loginbg.jpg) repeat;background-size: 100% 530px;">
+        <div class="login" id="login">
+                <p>欢迎登录</p>
+                <div id="username">
+                    <img src="img/login/user.png" alt="">
+                    <input type="text" placeholder="请输入用户名" name="uname" id="uname">
+                </div>
+                <div id="nameres"></div>
+                <div id="password">
+                    <img src="img/login/mima.png" alt="">
+                    <input type="password" name="upwd" id="upwd" placeholder="请输入密码">
+                </div>
+                <div id="pwdres"></div>
+                <input type="submit"  value="登录" id="sumbit">
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/login.js"></script>
+    <div id="alertMsg">
+            <p id="alertMsg_info">
+               
+            </p>
+            <a id="alertMsg_btn1" href="javascript:void(0)">
+                <cite>确定</cite>
+            </a>
+        </div>
+</body>
+</html>

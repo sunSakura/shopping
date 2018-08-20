@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.titles{
+
+    width:1190px;
+    margin:0 auto;
+}
+.zhinan{
+    position: relative;
+    width:80%;
+    height:200px;
+    margin:0 auto;
+}
+.baozhang{
+    position: relative;
+    float:left;
+    width:100px;
+    height:200px;
+    color:#9A9ABC;
+    margin-right: 200px;
+    padding-top:20px;
+}
+.baozhang li{
+    list-style: none;
+    font-size: 5px;
+    margin-bottom:5px;
+}

@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+	padding:0px;
+}
+.nav{
+	position: relative;
+	width:1180px;
+	height:35px;
+	margin:0 auto;
+	border-bottom:2px solid red;
+	font-size:18px;
+	line-height: 33px;
+}
+.nav li{
+	list-style: none;
+	float:left;
+	margin-right:50px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.nav a:hover{
+	color:red;
+}
+#lunbo{
+    position:relative;
+    height:500px;
+    width:1180px;
+    overflow: hidden;
+    margin:0 auto;
+}
+#lists{
+    position: absolute;
+    width:3540px;
+}
+#lunbo li{
+    list-style: none;
+    float:left;
+}
+#lunbo ul.indicators{
+	position:absolute;
+	bottom:20px;
+	left:567px;
+}
+#lunbo ul.indicators li{
+	/*宽度，高度，倒角，背景颜色，右外边距，左浮动*/
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#757575;
+	margin-right:5px;
+	float:left;
+	cursor:pointer
+}
+#lunbo ul.indicators .on{
+	background:lightskyblue;
+}
+
+.floors{
+	position: relative;
+	width:100%;
+	height: 2050px;
+	background: #F5F5F5;
+}
+.floor1{
+	position: relative;
+	width:1200px;
+	height:670px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.floor{
+	position: relative;
+	width:5px;
+	height:15px;
+	float:left;
+	margin-top:10px;
+	background:#7FFFD4;
+	margin-right:15px;
+}
+.products{
+	position: relative;
+	width:1260px;
+	height:630px;
+	margin-top:10px;
+}
+.imgs{
+	position: relative;
+	float:left;
+	width: 235px;
+	height:618px;
+}
+.imgs:hover{
+	opacity: 0.7;
+}
+.product{
+	position: relative;
+	width:995px;
+	height:618px;
+	float:left;
+}
+.detail{
+	position: relative;
+	width:236px;
+	height:302px;
+	float:left;
+	margin-right:10px;
+	background: white;
+	border:1px solid white;
+	margin-bottom:10px;
+}
+.detail:hover{
+	border:1px solid red;
+	opacity: 0.8;
+}
+.detail img{
+	width:185px;
+	height:185px;
+	margin:15px 25px;
+}
+.title{
+	position: relative;
+	width:135px;
+	height:40px;
+	margin:0 auto;
+	font-size:14px;
+	overflow: hidden;
+}
+.price{
+	position: relative;
+	color:red;
+	margin:5px 0px;
+	text-align:center;
+}
+#alertMsg {
+    display: none;
+    width: 380px;
+    border: 1px solid #ddd;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    padding: 21px;
+    font-size: 12px;
+    position: absolute;
+    background: #fff;
+    z-index: 100000;
+    position: fixed;
+    left: 480px;
+    top: 181px;
+    width: 340px;
+    height: 151px;
+}
+#alertMsg_info {
+    width: 265px;
+    height: 116px;
+    line-height: 1.6em;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 52px;
+}
+#alertMsg_btn1{
+    display: inline-block;
+    position: relative;
+    top: -63px;
+    left: 147px;
+    padding-left: 0px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #FE6A00;
+}
+#alertMsg_btn1 cite{
+    line-height: 21px;
+    display: inline-block;
+    padding: 5px 14px 4px 10px;
+    font-style: normal;
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+    border-radius: 2px;
+}

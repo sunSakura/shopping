@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div class="Test">
+                <div>
+                  <li>
+                    <h2>
+              增加用户
+                    </h2>
+             <ul>
+            <form action=" " method="post" id="form1">
+            用户id：<input type="text" name="userID" v-model="userID" >   
+             用户姓名：<input type="text" name="userName" v-model="userName">       
+             用户年龄：<input type="text" name="userAge" v-model="userAge">     
+             用户性别：<input type="text" name="userSex" v-model="userSex"><br>
+             <input type="submit" value="提交">
+            </form>     
+             </ul>
+                  </li>
+                  <li>
+                    <h2>删除用户</h2>
+                    <ul>
+            <form action=" " method="DELETE" id="form2">
+              用户id：<input type="text" name="userID" v-model="userID" > <br>
+             <input type="submit" value="提交">
+            </form>
+                    </ul>
+                  </li>
+            
+                  <li>
+                  <h2>查找用户</h2>
+                  <ul>
+                    <form action=" " method="GET" id="form3">
+              用户id：<input type="text" name="id" v-model="userID" > <br>
+             <input type="submit" value="提交">
+            </form>
+                  </ul>
+                  </li>
+            
+                  <li>
+                    <h2>更新用户</h2>
+                    <form action="" method="PUT" id="form4">
+            用户id：<input type="text" name="userID" v-model="userID" >   
+             用户姓名：<input type="text" name="userName" v-model="userName">       
+             用户年龄：<input type="text" name="userAge" v-model="userAge">     
+             用户性别：<input type="text" name="userSex" v-model="userSex"><br>
+              <input type="submit" value="提交">
+            </form>     
+                  </li>
+                </div>
+              </div>
+              <script>
+                  var a=document.getElementById("form1");
+                  var sumbit=a.lastChild;
+                  console.log(sumbit);
+                  sumbit.onclick=function(){
+                      console.log(123);
+                  }
+              </script>
+</body>
+</html>
